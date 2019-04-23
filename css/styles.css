@@ -78,18 +78,29 @@ div h2, h3{
     padding:20px;
     border-radius: 25px;
 }
+
+.objetivos .text p, .religiosos .text p, .civiles .text li, .morales .text p{
+    text-align: start;
+}
+
 .banner{
     border-left: 0;
     border-right: 0;
 }
-.njg{
-    width: 100%;
-    height: 100%;
-}
 
-div p{
+
+div p, li{
     margin: 8px 2px;
    font-family: "Raleway";
+}
+
+ol{
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: black;
 }
 
 .join{
@@ -102,14 +113,15 @@ div p{
     position: relative;
     text-align: right;
     height: 600px;
-    width: 330px;
+    width: 360px;
+    align-self: center;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 600px;
-    width: 330px;
+    width: 360px;
 }
 
 .gmap_canvas iframe{
